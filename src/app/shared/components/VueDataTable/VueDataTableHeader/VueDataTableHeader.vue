@@ -61,8 +61,12 @@ export default {
 .vueDataTableHeader {
   border: $data-table-header-border;
   background: $data-table-header-bg;
-  font-weight: $data-table-header-font-weight;
+
   min-width: $data-table-min-width;
+
+  th {
+    font-weight: $data-table-header-font-weight;
+  }
 
   tr {
     width: $data-table-width;
